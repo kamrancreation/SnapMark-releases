@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Release notes · SnapMark</title>
+  <meta name="description" content="What's new in each version of SnapMark, the all-in-one screen capture app for Windows.">
+  <meta name="theme-color" content="#0B0D17">
+  <link rel="canonical" href="https://snapmark-omega.vercel.app/changelog">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="glow glow-a" aria-hidden="true"></div>
+  <div class="glow glow-b" aria-hidden="true"></div>
+
+  <header class="nav" id="top">
+    <div class="container nav-inner">
+      <a class="brand" href="./" aria-label="SnapMark home">
+        <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
+          <defs>
+            <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#7C3AED"/><stop offset=".55" stop-color="#3B82F6"/><stop offset="1" stop-color="#06B6D4"/>
+            </linearGradient>
+          </defs>
+          <rect x="1" y="1" width="30" height="30" rx="7" fill="url(#lg)"/>
+          <path d="M7 13V7h6M19 7h6v6M7 19v6h6M25 19v6h-6" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="16" cy="16" r="3.5" fill="#fff"/>
+        </svg>
+        <span>SnapMark</span>
+      </a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="./#features">Features</a>
+        <a href="./#studio">Studio</a>
+        <a href="./#faq">FAQ</a>
+        <a href="changelog" aria-current="page">Release notes</a>
+      </nav>
+      <a class="btn btn-primary btn-sm" href="https://github.com/kamrancreation/SnapMark-releases/releases/latest/download/SnapMark-win-Setup.exe">Download</a>
+    </div>
+  </header>
+
+  <main class="section changelog">
+    <div class="container narrow">
+      <div class="section-head">
+        <p class="eyebrow">Release notes</p>
+        <h1 class="changelog-title">What's new in SnapMark</h1>
+        <p class="sub">SnapMark updates itself: when a new version is ready, you'll see an update popup, and one click installs it.</p>
+      </div>
+
+      <ol class="releases">
+        <li class="release">
+          <div class="release-meta">
+            <span class="version">1.0.1</span>
+            <span class="badge-latest">Latest</span>
+            <time datetime="2026-09-30">30 September 2026</time>
+          </div>
+          <div class="release-body">
+            <h2>A friendlier way to update</h2>
+            <ul class="changes">
+              <li><span class="kind new">New</span> An <b>Update ready</b> popup with <b>Restart now</b>, <b>Later</b> and <b>What's new</b>, instead of a small Windows notification. You'll see it from the next update onward.</li>
+              <li><span class="kind new">New</span> The app window shows which version you have, under the SnapMark logo.</li>
+              <li><span class="kind improved">Improved</span> SnapMark looks for updates 5 seconds after it starts, so new versions arrive sooner.</li>
+              <li><span class="kind improved">Improved</span> Updates download only the parts that changed. This one is about 0.2 MB.</li>
+              <li><span class="kind improved">Improved</span> <b>Release notes</b> in Settings → About and updates now opens this page.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="release">
+          <div class="release-meta">
+            <span class="version">1.0.0</span>
+            <time datetime="2026-09-30">30 September 2026</time>
+          </div>
+          <div class="release-body">
+            <h2>First public release</h2>
+            <h3>Capture</h3>
+            <ul class="changes">
+              <li>Custom region, full screen, active window and all screens, at full native resolution.</li>
+              <li>Grab text from anything on screen (OCR) and pick any color as HEX and RGB.</li>
+              <li>Your own shortcuts, a customizable capture menu, an optional 3, 5 or 10 second delay, and PNG or JPEG quality settings.</li>
+              <li>A quick-actions popup after each capture: edit, copy, save, pin, beautify, add to a guide, or create a report.</li>
+            </ul>
+            <h3>Edit</h3>
+            <ul class="changes">
+              <li>Numbered steps, highlight, pixelate, blur, box, arrow, text, pen, spotlight and stamps.</li>
+              <li>Select, move, resize and delete annotations; crop; unlimited undo.</li>
+              <li>Auto-redact finds and hides emails, phone numbers, card numbers, API keys and passwords.</li>
+            </ul>
+            <h3>Share</h3>
+            <ul class="changes">
+              <li>Before / After and Beautify studio with browser, laptop and phone frames, backgrounds and your logo.</li>
+              <li>Step-by-step guides and one-page client reports as print-quality A4 PDFs.</li>
+              <li>Library of your screenshots: copy as file, export several as one PDF, pin to screen.</li>
+            </ul>
+            <h3>App</h3>
+            <ul class="changes">
+              <li>One-click installer, Start menu entry, start with Windows, and automatic updates.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+
+      <div class="changelog-footer">
+        <a class="btn btn-primary" href="https://github.com/kamrancreation/SnapMark-releases/releases/latest/download/SnapMark-win-Setup.exe">Download the latest version</a>
+        <a class="cta-link-muted" href="https://github.com/kamrancreation/SnapMark-releases/releases">All downloads on GitHub →</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year">2026</span> SnapMark</span>
+      <nav aria-label="Footer">
+        <a href="./#features">Features</a>
+        <a href="./#faq">FAQ</a>
+        <a href="changelog">Release notes</a>
+      </nav>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

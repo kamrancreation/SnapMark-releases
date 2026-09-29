@@ -202,6 +202,37 @@ kbd, .how-icon {
 .cta p { margin: 14px auto 30px; color: rgba(255, 255, 255, .85); font-size: 18px; }
 .cta-link { display: block; margin-top: 18px; color: rgba(255, 255, 255, .85); font-size: 15px; }
 
+/* Release notes page */
+.changelog { padding-top: 80px; }
+.changelog-title { font-size: clamp(34px, 5vw, 54px); font-weight: 800; margin-top: 12px; }
+.nav-links a[aria-current="page"] { color: var(--text); }
+.releases { list-style: none; padding: 0; margin: 0; display: grid; gap: 28px; }
+.release {
+  display: grid; grid-template-columns: 170px 1fr; gap: 28px; padding: 30px; border-radius: 22px;
+  background: rgba(20, 24, 48, .7); border: 1px solid var(--border);
+}
+.release:first-child { border-color: rgba(139, 92, 246, .55); box-shadow: 0 0 60px -30px rgba(124, 58, 237, .8); }
+.release-meta { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.version { font-size: 30px; font-weight: 800; background: var(--grad-text); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.badge-latest { padding: 3px 10px; border-radius: 999px; background: rgba(34, 197, 94, .15); color: #86efac; font-size: 12px; font-weight: 700; }
+.release-meta time { color: var(--faint); font-size: 14px; }
+.release-body h2 { font-size: 24px; margin-bottom: 14px; }
+.release-body h3 { font-size: 15px; text-transform: uppercase; letter-spacing: .08em; color: #a78bfa; margin: 22px 0 8px; }
+.changes { margin: 0; padding-left: 20px; display: grid; gap: 10px; color: var(--muted); }
+.changes li::marker { color: #8b5cf6; }
+.changes b { color: var(--text); font-weight: 600; }
+.kind { display: inline-block; margin-right: 8px; padding: 1px 8px; border-radius: 6px; font-size: 12px; font-weight: 700; vertical-align: 1px; }
+.kind.new { background: rgba(139, 92, 246, .18); color: #c4b5fd; }
+.kind.improved { background: rgba(6, 182, 212, .15); color: #67e8f9; }
+.releases li.release > .release-body .changes li:has(.kind) { list-style: none; margin-left: -20px; }
+.changelog-footer { display: flex; flex-direction: column; align-items: center; gap: 14px; margin-top: 48px; }
+.cta-link-muted { color: var(--muted); font-size: 15px; }
+
+@media (max-width: 680px) {
+  .release { grid-template-columns: 1fr; gap: 14px; padding: 22px; }
+  .release-meta { flex-direction: row; align-items: center; flex-wrap: wrap; }
+}
+
 /* Footer */
 .footer { border-top: 1px solid var(--border); padding: 30px 0 40px; color: var(--faint); font-size: 14px; }
 .footer-inner { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
