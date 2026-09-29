@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SnapMark: screenshots that explain themselves</title>
+  <meta name="description" content="SnapMark is an all-in-one screen capture app for Windows: numbered steps, highlights, auto-redact, beautiful device mockups, before/after comparisons, step-by-step PDF guides and client reports.">
+  <meta name="theme-color" content="#0B0D17">
+  <meta property="og:title" content="SnapMark: screenshots that explain themselves">
+  <meta property="og:description" content="Capture, annotate and share polished screenshots on Windows. Steps, redaction, mockups, PDF guides and client reports in one app.">
+  <meta property="og:image" content="assets/img/app-window.png">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <div class="glow glow-a" aria-hidden="true"></div>
+  <div class="glow glow-b" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="top">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="SnapMark home">
+        <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
+          <defs>
+            <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#7C3AED"/><stop offset=".55" stop-color="#3B82F6"/><stop offset="1" stop-color="#06B6D4"/>
+            </linearGradient>
+          </defs>
+          <rect x="1" y="1" width="30" height="30" rx="7" fill="url(#lg)"/>
+          <path d="M7 13V7h6M19 7h6v6M7 19v6h6M25 19v6h-6" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="16" cy="16" r="3.5" fill="#fff"/>
+        </svg>
+        <span>SnapMark</span>
+      </a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="#features">Features</a>
+        <a href="#studio">Studio</a>
+        <a href="#share">Guides and reports</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="btn btn-primary btn-sm" href="https://github.com/kamrancreation/SnapMark-releases/releases/latest/download/SnapMark-win-Setup.exe">Download</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="pill reveal"><span class="dot"></span> Version 1.0 · Windows 10 and 11</p>
+        <h1 class="reveal">Screenshots that <span class="gradient-text">explain themselves.</span></h1>
+        <p class="lead reveal">Capture any part of your screen, mark it up with numbered steps and highlights, hide private details automatically, and share polished images, PDF guides and client reports in seconds.</p>
+        <div class="hero-cta reveal">
+          <a class="btn btn-primary btn-lg" href="https://github.com/kamrancreation/SnapMark-releases/releases/latest/download/SnapMark-win-Setup.exe">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5 10.5 4.4v7.1H3V5.5Zm0 13 7.5 1.1v-7H3v5.9Zm8.4 1.2L21 21v-8.4h-9.6v7.1Zm0-15.4v7.2H21V3l-9.6 1.3Z" fill="currentColor"/></svg>
+            Download for Windows
+          </a>
+          <a class="btn btn-ghost btn-lg" href="#features">See what it does</a>
+        </div>
+        <p class="fine reveal">No admin rights needed · Updates itself automatically · Everything stays on your PC</p>
+
+        <div class="hero-shot reveal">
+          <div class="shot-frame">
+            <img src="assets/img/app-window.png" width="1600" height="1032" alt="The SnapMark app window, showing capture options for custom region, full screen, window, all screens, grab text and pick color.">
+          </div>
+          <div class="float-card float-a" aria-hidden="true">
+            <span class="step-badge">1</span><span>Click <b>Settings</b></span>
+          </div>
+          <div class="float-card float-b" aria-hidden="true">
+            <span class="shield">🛡</span><span>3 private items hidden</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section how">
+      <div class="container">
+        <div class="how-grid">
+          <div class="how-step reveal">
+            <kbd>PrtScn</kbd>
+            <h3>Capture</h3>
+            <p>Drag over any area, or grab a full screen, a window or every monitor at once, at full native resolution.</p>
+          </div>
+          <div class="how-arrow" aria-hidden="true">→</div>
+          <div class="how-step reveal">
+            <span class="how-icon">✎</span>
+            <h3>Mark it up</h3>
+            <p>Add numbered steps, arrows, highlights, text and stamps. Blur or pixelate anything private.</p>
+          </div>
+          <div class="how-arrow" aria-hidden="true">→</div>
+          <div class="how-step reveal">
+            <span class="how-icon">↗</span>
+            <h3>Share</h3>
+            <p>Copy, save, pin, beautify, or turn it into a PDF guide or client report, straight from the popup.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Everything in one app</p>
+          <h2>From quick capture to client-ready in one place</h2>
+          <p class="sub">No more switching between a snipping tool, an image editor and a PDF app.</p>
+        </div>
+
+        <div class="bento">
+          <article class="card card-wide reveal">
+            <div class="card-copy">
+              <span class="tag">Annotate</span>
+              <h3>Numbered steps in one click</h3>
+              <p>Click, click, click: 1, 2, 3. Add arrows, boxes, highlights, text, freehand pen, a spotlight that dims everything else, and ✓ ✕ ! stamps. Move, resize or undo anything.</p>
+            </div>
+            <div class="steps-demo" aria-hidden="true">
+              <div class="demo-line"><span class="step-badge">1</span><span class="bar w60"></span></div>
+              <div class="demo-line"><span class="step-badge">2</span><span class="bar w80 hl"></span></div>
+              <div class="demo-line"><span class="step-badge">3</span><span class="bar w45"></span><span class="stamp ok">✓</span></div>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <span class="tag">Privacy</span>
+            <h3>Auto-redact</h3>
+            <p>SnapMark reads the screenshot and pixelates emails, phone numbers, card numbers, API keys and passwords for you.</p>
+            <div class="redact-demo" aria-hidden="true">
+              <p>Email: <span class="px">jordan@example.com</span></p>
+              <p>Card: <span class="px">4242 4242 4242 4242</span></p>
+              <p>API key: <span class="px">sk_live_51HxYzAbCd</span></p>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <span class="tag">Quality</span>
+            <h3>Pixel-perfect, every time</h3>
+            <p>Every capture keeps each physical pixel at native resolution, so text stays razor-sharp on 4K and scaled displays. Save lossless PNG or small JPEG.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="tag">Tools</span>
+            <h3>Grab text and colors</h3>
+            <p>Copy the text out of any image or video frame with built-in OCR, or pick any on-screen color as HEX and RGB.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="tag">Workflow</span>
+            <h3>Your shortcuts, your way</h3>
+            <p>A quick setup lets you choose every shortcut, what appears in the capture menu, and what happens after each capture.</p>
+          </article>
+
+          <article class="card card-full reveal">
+            <span class="tag">Organize</span>
+            <h3>Library and pins</h3>
+            <p>Browse and search past screenshots, copy them as files for Word or email, export several as one PDF, or pin one above your other windows.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Studio -->
+    <section class="section" id="studio">
+      <div class="container">
+        <div class="split">
+          <div class="split-copy reveal">
+            <p class="eyebrow">Studio</p>
+            <h2>Make every screenshot presentation-ready</h2>
+            <p class="sub">Drop a screenshot into a browser window, laptop or phone, add a gradient background, rounded corners, a shadow and your logo. Save the look as your brand and reuse it forever.</p>
+            <ul class="checks">
+              <li>Browser (light and dark), laptop and phone frames</li>
+              <li>8 background styles with padding and shadow controls</li>
+              <li>Your logo in the footer or as a watermark</li>
+              <li>One-click "Beautify" from the capture popup</li>
+            </ul>
+          </div>
+          <div class="mockup-stack reveal">
+            <img class="m1" src="assets/img/mockup-laptop.png" width="1171" height="516" alt="A screenshot shown inside a laptop frame on a blue-violet gradient background.">
+            <img class="m2" src="assets/img/mockup-browser.png" width="990" height="444" alt="A screenshot shown inside a dark browser window frame.">
+          </div>
+        </div>
+
+        <div class="before-after reveal">
+          <div class="ba-copy">
+            <p class="eyebrow">Before / After</p>
+            <h3>Show clients exactly what changed</h3>
+            <p>Put two versions side by side, stacked, or split down the middle, with clear Before and After labels.</p>
+          </div>
+          <img src="assets/img/before-after.png" width="1600" height="391" alt="Two screenshots side by side labelled Before and After on a gradient background.">
+        </div>
+      </div>
+    </section>
+
+    <!-- Guides and reports -->
+    <section class="section" id="share">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">For client work</p>
+          <h2>Documents your clients will actually read</h2>
+          <p class="sub">Turn screenshots into polished, print-quality PDFs in a couple of clicks.</p>
+        </div>
+        <div class="docs">
+          <figure class="doc reveal">
+            <img src="assets/img/step-guide.png" width="900" height="1273" alt="An A4 step-by-step guide page with a title, a numbered step, a note and a screenshot.">
+            <figcaption>
+              <h3>Step-by-step guides</h3>
+              <p>Add screenshots, give each step a title and a note, reorder, and export a branded A4 PDF with page numbers.</p>
+            </figcaption>
+          </figure>
+          <figure class="doc reveal">
+            <img src="assets/img/client-report.png" width="900" height="1273" alt="A one-page client report with a title, prepared for and by, date, a cover note, a screenshot and contact details.">
+            <figcaption>
+              <h3>One-page client reports</h3>
+              <p>A title, who it's for, a cover note, the screenshot and your contact details, ready to send.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container narrow">
+        <div class="section-head reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2>Good questions</h2>
+        </div>
+        <div class="faq">
+          <details class="reveal">
+            <summary>Which Windows versions does SnapMark support?</summary>
+            <p>Windows 10 (version 1809 or later) and Windows 11, 64-bit. Nothing else needs installing; SnapMark includes everything it needs.</p>
+          </details>
+          <details class="reveal">
+            <summary>Windows says "Windows protected your PC". Is that normal?</summary>
+            <p>Yes. The installer isn't code-signed yet, so Windows SmartScreen shows a warning for new apps. Click <b>More info → Run anyway</b> to continue.</p>
+          </details>
+          <details class="reveal">
+            <summary>How do updates work?</summary>
+            <p>SnapMark checks for new versions in the background, downloads them quietly, and asks you to restart when an update is ready. You can also check any time in Settings → About and updates.</p>
+          </details>
+          <details class="reveal">
+            <summary>Are my screenshots uploaded anywhere?</summary>
+            <p>No. Screenshots, text recognition and redaction all happen on your PC. There's no account and nothing is sent to a server; the only network request is the update check.</p>
+          </details>
+          <details class="reveal">
+            <summary>Can I keep using the Print Screen key?</summary>
+            <p>Yes. If Windows' Snipping Tool already uses PrtScn, turn it off in Windows Settings → Accessibility → Keyboard, or pick a different shortcut in SnapMark's setup.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final call to action -->
+    <section class="section">
+      <div class="container">
+        <div class="cta reveal">
+          <h2>Start capturing better screenshots today</h2>
+          <p>Install takes a few seconds, and SnapMark keeps itself up to date.</p>
+          <a class="btn btn-light btn-lg" href="https://github.com/kamrancreation/SnapMark-releases/releases/latest/download/SnapMark-win-Setup.exe">Download for Windows</a>
+          <a class="cta-link" href="https://github.com/kamrancreation/SnapMark-releases/releases/latest">Release notes and other downloads →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year">2026</span> SnapMark</span>
+      <nav aria-label="Footer">
+        <a href="#features">Features</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://github.com/kamrancreation/SnapMark-releases/releases/latest">Releases</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
