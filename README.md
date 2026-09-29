@@ -10,7 +10,20 @@ The marketing site for SnapMark, the Windows screen capture app. Plain HTML, CSS
 Download buttons point to the latest installer in the public
 [SnapMark-releases](https://github.com/kamrancreation/SnapMark-releases/releases/latest) repo, so they stay current after every release.
 
-To preview locally, serve the folder with any static file server, for example:
+## Going live
+
+The site is hosted with GitHub Pages from the `gh-pages` branch of the public
+[SnapMark-releases](https://github.com/kamrancreation/SnapMark-releases) repo:
+**https://kamrancreation.github.io/SnapMark-releases/**. This repo stays private.
+After committing changes here, publish them with:
+
+```bash
+git push https://github.com/kamrancreation/SnapMark-releases.git main:gh-pages
+```
+
+## Preview locally
+
+Serve the folder with any static file server, for example:
 
 ```bash
 npx serve .
