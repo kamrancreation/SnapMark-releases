@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy policy · SnapMark</title>
+  <meta name="description" content="SnapMark's privacy policy: your screenshots stay on your PC.">
+  <meta name="theme-color" content="#0B0D17">
+  <link rel="canonical" href="https://snapmark-omega.vercel.app/privacy">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="glow glow-a" aria-hidden="true"></div>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="./" aria-label="SnapMark home">
+        <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
+          <defs>
+            <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#7C3AED"/><stop offset=".55" stop-color="#3B82F6"/><stop offset="1" stop-color="#06B6D4"/>
+            </linearGradient>
+          </defs>
+          <rect x="1" y="1" width="30" height="30" rx="7" fill="url(#lg)"/>
+          <path d="M7 13V7h6M19 7h6v6M7 19v6h6M25 19v6h-6" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="16" cy="16" r="3.5" fill="#fff"/>
+        </svg>
+        <span>SnapMark</span>
+      </a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="./#features">Features</a>
+        <a href="./#faq">FAQ</a>
+        <a href="changelog">Release notes</a>
+      </nav>
+      <a class="btn btn-primary btn-sm" href="https://github.com/kamrancreation/SnapMark-releases/releases/latest/download/SnapMark-win-Setup.exe">Download</a>
+    </div>
+  </header>
+
+  <main class="section changelog">
+    <div class="container narrow legal">
+      <p class="eyebrow">Privacy policy</p>
+      <h1 class="changelog-title">Your screenshots stay on your PC</h1>
+      <p class="sub">Last updated: 6 October 2026</p>
+
+      <h2>The short version</h2>
+      <p>SnapMark doesn't collect, store, sell or share any personal information. There's no account, no sign-in, no analytics and no advertising. Everything you capture and edit stays on your computer.</p>
+
+      <h2>What SnapMark does on your computer</h2>
+      <ul>
+        <li><b>Screenshots</b> are captured, edited and saved only on your PC, in the folder you choose (by default, Pictures\SnapMark). They're copied to your clipboard only when you ask.</li>
+        <li><b>Text recognition (Grab text and Auto-redact)</b> uses the OCR engine built into Windows and runs entirely on your PC. Nothing is uploaded.</li>
+        <li><b>Settings</b> such as your shortcuts, theme, editor preferences and the contact details you type for client reports are saved in a settings file on your PC and are never sent anywhere.</li>
+      </ul>
+
+      <h2>Network use</h2>
+      <p>SnapMark doesn't send your screenshots or any personal information over the internet.</p>
+      <ul>
+        <li><b>Microsoft Store version:</b> updates are delivered by the Microsoft Store, under <a href="https://privacy.microsoft.com/privacystatement">Microsoft's privacy statement</a>. SnapMark itself makes no network requests.</li>
+        <li><b>Version downloaded from this website:</b> SnapMark checks GitHub for new versions (a standard web request to github.com, which can see your IP address, like any website you visit). No personal data is included in the request.</li>
+      </ul>
+
+      <h2>Children</h2>
+      <p>SnapMark doesn't knowingly collect information from anyone, including children under 13.</p>
+
+      <h2>Changes</h2>
+      <p>If this policy changes, the new version will be posted on this page with a new date.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about privacy? Contact the developer through the <a href="https://github.com/kamrancreation/SnapMark-releases/issues">SnapMark support page</a>.</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year">2026</span> SnapMark</span>
+      <nav aria-label="Footer">
+        <a href="./#features">Features</a>
+        <a href="changelog">Release notes</a>
+        <a href="privacy">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

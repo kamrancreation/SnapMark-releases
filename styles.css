@@ -233,6 +233,13 @@ kbd, .how-icon {
   .release-meta { flex-direction: row; align-items: center; flex-wrap: wrap; }
 }
 
+/* Privacy and other text pages */
+.legal h2 { font-size: 22px; margin: 36px 0 10px; }
+.legal p, .legal li { color: var(--muted); }
+.legal ul { padding-left: 22px; display: grid; gap: 10px; margin: 12px 0 0; }
+.legal b { color: var(--text); }
+.legal a { color: #a78bfa; }
+
 /* Footer */
 .footer { border-top: 1px solid var(--border); padding: 30px 0 40px; color: var(--faint); font-size: 14px; }
 .footer-inner { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
